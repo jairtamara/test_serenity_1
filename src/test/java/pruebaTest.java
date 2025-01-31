@@ -69,6 +69,7 @@ public class pruebaTest {
     @After
     public void cerrarNavegador() {
         driver.quit();
+        // los metodos no se llama entre si  se maneja con etiquetas "@"
     }
 
 
